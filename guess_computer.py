@@ -14,7 +14,7 @@ low = 1
 high = max_num
 
 # prompt the user to start guessing
-print("Kamu sedang berpikir tentang sebuah angka antara 1 dan", max_num)
+print("Sedang mengacak sebuah angka antara 1 dan", max_num)
 
 # keep looping until the computer guesses the correct number
 while True:
@@ -26,7 +26,7 @@ while True:
 
   # check if the guess is correct
   if guess == number:
-    print("Komputer berhasil menebaknya! Angka acak yang dapatkan adalah", number)
+    print("Komputer berhasil menebaknya! Angka acak yang kamu dapatkan adalah", number)
     print("Komputer membutuhkan", num_guesses, "tebakan untuk menebak angka yang benar.")
     break
 
