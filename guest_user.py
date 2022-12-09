@@ -1,7 +1,7 @@
 import random
 
-# set the maximum number that can be guessed
-max_num = 20
+# ask the user for the maximum number
+max_num = int(input("Masukkan angka maksimal yang dapat diinginkan: "))
 
 # randomly choose a number to be guessed
 number = random.randint(1, max_num)
@@ -10,7 +10,7 @@ number = random.randint(1, max_num)
 num_guesses = 0
 
 # prompt the user to start guessing
-print("Saya sedang berpikir tentang sebuah angka antara 1 dan", max_num)
+print("Komputer sedang berpikir tentang sebuah angka antara 1 dan", max_num)
 
 # keep looping until the user guesses the correct number
 while True:
@@ -22,7 +22,7 @@ while True:
 
   # check if the guess is correct
   if guess == number:
-    print("Tebakanmu benar! Angka yang saya pikirkan adalah", number)
+    print("Tebakanmu benar! Angka yang komputer pikirkan adalah", number)
     print("Kamu menebaknya dalam", num_guesses, "tebakan.")
     break
 
