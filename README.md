@@ -1,5 +1,3 @@
-# guess-the-number
-Guess the Number adalah sebuah permainan di mana pemain harus menebak sebuah angka yang dipilih secara acak oleh komputer.
 
 # contoh output
 Saya sedang berpikir tentang sebuah angka antara 1 dan 20
