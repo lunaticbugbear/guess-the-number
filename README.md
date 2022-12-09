@@ -1,21 +1,10 @@
 
-# contoh output
-Saya sedang berpikir tentang sebuah angka antara 1 dan 20
-
-Masukkan tebakanmu: 10
-
-Tebakanmu terlalu rendah. Coba lagi.
-
-Masukkan tebakanmu: 15
-
-Tebakanmu terlalu rendah. Coba lagi.
-
-Masukkan tebakanmu: 18
-
-Tebakanmu terlalu tinggi. Coba lagi.
-
-Masukkan tebakanmu: 17
-
-Tebakanmu benar! Angka yang saya pikirkan adalah 17
-
-Kamu menebaknya dalam 4 tebakan.
+# contoh output(computer)
+Masukkan angka terbesar yang diinginkan: 100
+Saya sedang berpikir tentang sebuah angka antara 1 dan 100
+Tebakan komputer terlalu rendah. Mengubah range angka yang memungkinkan.
+Tebakan komputer terlalu rendah. Mengubah range angka yang memungkinkan.
+Tebakan komputer terlalu rendah. Mengubah range angka yang memungkinkan.
+Tebakan komputer terlalu tinggi. Mengubah range angka yang memungkinkan.
+Komputer berhasil menebaknya! Angka yang saya pikirkan adalah 48
+Komputer membutuhkan 5 tebakan untuk menebak angka yang benar.
